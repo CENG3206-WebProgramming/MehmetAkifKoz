@@ -1,0 +1,40 @@
+.wrapper {
+  display:grid;
+  grid-template-columns: 15% 85%;
+}
+
+.category-title {
+  font-weight:normal;
+  font: normal 14.5pt Arial;
+}
+
+.list-title {
+  font-weight:normal;
+  font: normal 11.5pt Arial;
+}
+
+.date-location {
+  font-weight:normal;
+  font:normal 8.5pt Arial;
+  color:blue;
+}
+
+.description {
+  font: normal 11.5pt Arial;
+}
+
+.category-list {
+  list-style-type: none;
+}
+
+#name-surname {
+  text-align:center;
+}
+
+#dl-date-of-birth {
+  text-align:center;
+}
+
+#english-table {
+  text-align:center;
+}
