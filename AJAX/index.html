@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>MARS Photos From Curiosity</title>
+      <link href="mars-photos.css" rel="stylesheet" />
+      <script src="mars-photos.js"></script>
+    </head>
+    <body>
+      <header>
+        <h1>MARS Photos From Curiosity</h1>
+      </header>
+      <main>
+        <div>
+          <button id="mars-photos-btn">MARS Photos of the Day</button>
+          <label>Custom Day: <input id="day-input" placeholder="YYYY-MM-DD"></label>
+          <label>Camera: 
+            <select name="cameras" id="cameras">
+              <option value="fhaz">FHAZ</option>
+              <option value="rhaz">RHAZ</option>
+              <option value="mast">MAST</option>
+              <option value="chemcam">CHEMCAM</option>
+              <option value="mahli">MAHLI</option>
+              <option value="mardi">MARDI</option>
+              <option value="navcam">NAVCAM</option>
+            </select>
+          </label>
+        </div>
+        <h2 id="response-message">Response</h2>
+        <div id="response"></div>
+      </main>
+      <footer>
+        <p>Data from the <a href="https://api.nasa.gov/#getting-started">NASA API</a></p>
+      </footer>
+    </body>
+</html>
